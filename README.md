@@ -1,4 +1,6 @@
-# 基于 QT、V4L2、ALSA、FFmpeg 的嵌入式 Linux 项目，具有相机、音乐播放、视频播放功能的多媒体系统
+# mmproject-imx6ull
+基于 QT、V4L2、ALSA、FFmpeg 的嵌入式 Linux 项目，具有相机、音乐播放、视频播放功能的多媒体系统
+
 ## 主界面
 - mainwidget 包含四个功能按钮，点击任一按钮可打开相应的功能界面
 ![mainwidget](/result/mainwidget.jpg)
