@@ -1,0 +1,29 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/background.png</file>
+        <file>images/camera.png</file>
+        <file>images/album.png</file>
+        <file>images/music.png</file>
+        <file>images/video.png</file>
+        <file>images/switch_on.png</file>
+        <file>images/switch_off.png</file>
+        <file>style.qss</file>
+        <file>images/album_prev.png</file>
+        <file>images/album_next.png</file>
+        <file>images/music_cd.png</file>
+        <file>images/music_like.png</file>
+        <file>images/music_list.png</file>
+        <file>images/music_mode_list.png</file>
+        <file>images/music_mode_random.png</file>
+        <file>images/music_mode_single.png</file>
+        <file>images/music_next.png</file>
+        <file>images/music_pause.png</file>
+        <file>images/music_play.png</file>
+        <file>images/music_prev.png</file>
+        <file>images/music_unlike.png</file>
+        <file>images/music_volume.png</file>
+        <file>images/music_slider.png</file>
+        <file>images/video_big.png</file>
+        <file>images/video_small.png</file>
+    </qresource>
+</RCC>
