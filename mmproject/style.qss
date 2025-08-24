@@ -1,0 +1,219 @@
+QPushButton#btn_camera {
+border-image: url(:/images/camera.png);
+}
+
+QPushButton#btn_album {
+border-image: url(:/images/album.png);
+}
+
+QPushButton#btn_music {
+border-image: url(:/images/music.png);
+}
+
+QPushButton#btn_video {
+border-image: url(:/images/video.png);
+}
+
+QLabel#v4l2_photo {
+background-color: #668B8B;
+}
+
+QPushButton#btn_switch {
+border-radius: 10px;
+border-image: url(:/images/switch_off.png);
+}
+
+QPushButton#btn_switch:checked {
+border-image: url(:/images/switch_on.png);
+}
+
+QPushButton#btn_prev_photo {
+border-radius: 30px;
+border-image: url(:/images/album_prev.png);
+}
+
+QPushButton#btn_next_photo {
+border-radius: 30px;
+border-image: url(:/images/album_next.png);
+}
+
+QListWidget#list_musics {
+font-size: 15px;
+border:none;
+}
+QListWidget#list_musics:item {
+height:60;
+color:#000000;
+}
+QListWidget#list_musics:item:selected {
+color:#5edcf3;
+}
+QListWidget#list_musics:item:hover {
+color:#5edcf3;
+border:none;
+}
+
+QPushButton#btn_play_music {
+border-radius: 40px;
+border-image: url(:/images/music_play.png);
+}
+
+QPushButton#btn_play_music:checked {
+border-radius: 40px;
+border-image: url(:/images/music_pause.png);
+}
+
+QPushButton#btn_prev_music {
+border-radius: 40px;
+border-image: url(:/images/music_prev.png);
+}
+
+QPushButton#btn_next_music {
+border-radius: 40px;
+border-image: url(:/images/music_next.png);
+}
+
+QLabel#label_cd {
+border-image: url(:/images/music_cd.png);
+}
+
+QPushButton#btn_like {
+border-radius: 30px;
+border-image: url(:/images/music_unlike.png);
+}
+
+QPushButton#btn_like:checked {
+border-radius: 30px;
+border-image: url(:/images/music_like.png);
+}
+
+QPushButton#btn_mode[data-state="0"] {
+border-radius: 30px;
+border-image: url(:/images/music_mode_list.png);
+}
+QPushButton#btn_mode[data-state="1"] {
+border-radius: 30px;
+border-image: url(:/images/music_mode_single.png);
+}
+QPushButton#btn_mode[data-state="2"] {
+border-radius: 30px;
+border-image: url(:/images/music_mode_random.png);
+}
+
+QPushButton#btn_list {
+border-radius: 30px;
+border-image: url(:/images/music_list.png);
+}
+
+QPushButton#btn_volume {
+border-radius: 30px;
+border-image: url(:/images/music_volume.png);
+}
+
+QSlider#slider_music::groove:horizontal {
+height: 5px;
+background: #CCCCCC;
+}
+QSlider#slider_music::sub-page:horizontal {
+background: #5edcf3;
+}
+QSlider#slider_music:handle:horizontal {
+width: 10px;
+height: 10px;
+background: #FF5722;
+border-radius: 5px;
+margin: -3px 0;
+}
+
+QSlider#slider_volume::groove:vertical {
+width: 10px;
+background: #5edcf3;
+}
+QSlider#slider_volume::sub-page:vertical {
+background: #CCCCCC;
+}
+QSlider#slider_volume:handle:vertical {
+width: 16px;
+height: 8px;
+background: #FF5722;
+margin: 0px -3px;
+}
+
+QLabel#label_list {
+background-color: #E3E0D0;
+}
+QListWidget#list_videos {
+font-size: 20px;
+border:none;
+background-color:#E3E0D0;
+}
+QListWidget#list_videos:item {
+height:60;
+color:#000000;
+}
+QListWidget#list_videos:item:selected {
+color:#5edcf3;
+}
+QListWidget#list_videos:item:hover {
+color:#5edcf3;
+border:none;
+}
+
+QLabel#label_video {
+background-color: #668B8B;
+}
+
+QSlider#slider_video::groove:horizontal {
+height: 5px;
+background: #CCCCCC;
+}
+QSlider#slider_video::sub-page:horizontal {
+background: #5edcf3;
+}
+QSlider#slider_video:handle:horizontal {
+width: 10px;
+height: 10px;
+background: #FF5722;
+border-radius: 5px;
+margin: -3px 0;
+}
+
+QSlider#slider_volume_video::groove:vertical {
+width: 10px;
+background: #5edcf3;
+}
+QSlider#slider_volume_video::sub-page:vertical {
+background: #CCCCCC;
+}
+QSlider#slider_volume_video:handle:vertical {
+width: 16px;
+height: 8px;
+background: #FF5722;
+margin: 0px -3px;
+}
+
+QPushButton#btn_play_video {
+border-radius: 20px;
+border-image: url(:/images/music_play.png);
+}
+QPushButton#btn_play_video:checked {
+border-image: url(:/images/music_pause.png);
+}
+
+QPushButton#btn_next_video {
+border-radius: 20px;
+border-image: url(:/images/music_next.png);
+}
+
+QPushButton#btn_volume_video {
+border-radius: 20px;
+border-image: url(:/images/music_volume.png);
+}
+
+QPushButton#btn_scale {
+border-radius: 20px;
+border-image: url(:/images/video_big.png);
+}
+QPushButton#btn_scale:checked {
+border-image: url(:/images/video_small.png);
+}
